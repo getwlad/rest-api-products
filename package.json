@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "prestart": "npx sequelize-cli db:migrate",
-    "start": "node src/server.js",
+    "start": "nodemon",
     "dev": "nodemon"
   },
   "keywords": [],
