@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon"
+    "prestart": "npx sequelize-cli db:migrate",
+    "start": "node src/server.js",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
